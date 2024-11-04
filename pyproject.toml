@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "tunnel-manager"
+version = "0.1.0"
+description = ""
+authors = ["guoguo616 <gwt616@outlook.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.12"
+dearpygui = "^2.0.0"
+
+[tool.poetry.group.dev.dependencies]
+pyinstaller = "^6.11.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
